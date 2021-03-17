@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Manish\\Downloads\\NPF_Prod_Load_Testing_V12.6 (1).apk', true)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Username (1)'), 'kiran@npf.com', 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Password (1)'), '12345678', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - LOG IN (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (1)'), 0)
+
+Mobile.closeApplication()
+

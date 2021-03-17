@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>LoginNPF</description>
-   <name>LoginNPF</name>
-   <tag>Functional</tag>
-   <comment></comment>
-   <testCaseGuid>0b0ec801-ba43-4622-87d1-cd8bb3f10f43</testCaseGuid>
-</TestCaseEntity>
