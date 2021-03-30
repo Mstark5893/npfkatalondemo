@@ -30,8 +30,7 @@ Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes'), 0)
 Mobile.tap(findTestObject('Object Repository/android.widget.LinearLayout'), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.Spinner'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Q3-WMS Test Client   - Q3-WMS  (453)'), 0)
+Mobile.tap(findTestObject.findXpath('//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.TextView[12]'), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose from list'), 0)
 
